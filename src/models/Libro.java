@@ -1,6 +1,8 @@
 package models;
 
-public class Libro implements Prestable{
+import interfaces.Prestable;
+
+public class Libro implements Prestable {
     private String titulo;
     private String autor;
     private int anioPublicacion;
